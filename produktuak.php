@@ -263,9 +263,9 @@
                     <td>" . $row["mota"] . "</td>
                     <td>" . $row["prezioa"] . "€</td>
                     <td>
-                        <!-- Editatzeko esteka (Enlace para editar) -->
+                        <!
                         <a href='?editForm=true&id=" . $row["id"] . "&izena=" . $row["izena"] . "&editmota=" . $row["mota"] . "&prezioa=" . $row["prezioa"] . "'><i class='fas fa-pencil-alt'></i> Editatu</a> |
-                        <!-- Ezabatzeko esteka (Enlace para eliminar) -->
+                        
                         <a href='?delete=true&id=" . $row["id"] . "'><i class='fas fa-trash'></i> Ezabatu</a>
                     </td>
                 </tr>";
